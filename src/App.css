@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 14vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.home_bg {
+  background-color: #282c34;
+  width: 100%;
+  min-height: 70vh;
+}
+
+.home_bg .home_content {
+  background-color: #0E0E0E;
+  width: 90%;
+  height: 95%;
+}
+
+.about_bg {
+  background-image: url(https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmllbGR8ZW58MHx8MHx8&w=1000&q=80://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%D0%A1%D0%B2%D0%B5%D1%82_%D0%BE%D1%82_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D0%B8_-_panoramio.jpg/640px-%D0%A1%D0%B2%D0%B5%D1%82_%D0%BE%D1%82_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D0%B8_-_panoramio.jpg);
+  width: 90%;
+  min-height: 70vh;
+}
+
+.about_bg .about_content {
+  background-color: #B1B390;
+  width: 40%;
+  min-height: 70vh;
+  float:right
 }
